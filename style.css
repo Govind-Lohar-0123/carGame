@@ -1,0 +1,96 @@
+* ,p,h1,h2{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+p,h3{
+font: 2rem!important;
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+
+/* <///////start/////////> */
+.game-container{
+    width:100vw;
+    height:100vh;
+}
+.road{
+    width:25rem!important;
+    position: relative;
+   
+    border-left: dashed 1rem white;
+    border-right: dashed 1rem white;
+}
+.centerBox{
+    position: absolute;
+    top: 50%;
+    z-index:4;
+    text-transform: uppercase;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 0.6rem;
+    line-height: 2.5rem;
+    background-color: #FF4343;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.car,.carEnemy{
+    width:5rem;
+    height:5.5rem;
+    position: absolute;
+    bottom:0;
+  
+    background-image: url(c1.png);
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+    background-position: center center;
+z-index:3;
+background-color: red;
+
+}
+.roadLines > div {
+    width:1.8rem;
+    height:10rem;
+    position: absolute;
+    background-color: white;
+}
+.roadLines{
+   
+    margin:auto;
+   width:2rem;
+    top:0%;
+    left:50%;
+    
+    position: absolute;
+   
+    
+}
+.score{
+    font-size:2.5rem;
+    padding:1.5rem;
+    margin-inline:3rem!important;
+    text-align: center;
+    color: rgb(47, 0, 255);
+    font-weight: bold;
+    background-color: deeppink;
+    
+}
+span{
+    font-size: 2.5rem!important;
+    
+}
+
+
+
+
+.hide{
+    display: none;
+}
